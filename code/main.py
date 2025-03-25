@@ -7,6 +7,8 @@ import kagglehub
 import os
 from dotenv import load_dotenv
 
+load_dotenv()
+
 #%%
 # 下載資料
 path = kagglehub.dataset_download("shriyasingh900/covid19-dataset")
